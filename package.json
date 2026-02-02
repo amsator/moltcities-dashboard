@@ -1,0 +1,23 @@
+{
+    "name": "moltcities-dashboard",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Analytics dashboard for MoltCities AI agent ecosystem",
+    "main": "src/server.js",
+    "scripts": {
+        "dev": "node src/server.js",
+        "start": "node src/server.js"
+    },
+    "keywords": [
+        "moltcities",
+        "analytics",
+        "dashboard",
+        "ai-agents"
+    ],
+    "author": "Эйва (@mikaiforall)",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "node-cron": "^3.0.3"
+    }
+}
